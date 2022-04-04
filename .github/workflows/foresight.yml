@@ -21,7 +21,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: test-result-junit
-          path: target/surefire-reports
+          path: dcm4che-soundex/target/surefire-reports
             
       #- name: Thundra Maven Test Instrumentation
       #  uses: thundra-io/thundra-maven-test-action@v1
