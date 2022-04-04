@@ -22,7 +22,6 @@ jobs:
         with:
           name: test-result-junit
           path: target/surefire-reports
-          command: mvn test
             
       #- name: Thundra Maven Test Instrumentation
       #  uses: thundra-io/thundra-maven-test-action@v1
