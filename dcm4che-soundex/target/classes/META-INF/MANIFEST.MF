@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1640717329216
+Build-Jdk: 1.8.0_312
+Built-By: emin
+Bundle-Description: Phonetic algorithms for fuzzy semantic matching
+Bundle-DocURL: http://dcm4che.org
+Bundle-License: https://www.mozilla.org/en-US/MPL/1.1/, https://www.gnu.
+ org/licenses/old-licenses/gpl-2.0.html, https://www.gnu.org/licenses/ol
+ d-licenses/lgpl-2.1.html
+Bundle-ManifestVersion: 2
+Bundle-Name: dcm4che-soundex
+Bundle-SymbolicName: org.dcm4che.soundex
+Bundle-Vendor: dcm4che.org
+Bundle-Version: 5.24.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.dcm4che3.soundex;version="5.24.0"
+Implementation-Title: dcm4che-soundex
+Implementation-Vendor: dcm4che.org
+Implementation-Vendor-Id: org.dcm4che
+Implementation-Version: 5.24.0
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: dcm4che-soundex
+Specification-Vendor: dcm4che.org
+Specification-Version: 5.24.0
+Tool: Bnd-3.5.0.201709291849
