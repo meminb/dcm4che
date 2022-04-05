@@ -24,7 +24,7 @@ jobs:
       - name: Thundra Foresight JS Instrumentation
         uses: actions/upload-artifact@v2
         with:
-          name: test-result-junit
+          name: test-result-testng
           path: dcm4che-soundex/target/surefire-reports
             
       #- name: Thundra Maven Test Instrumentation
