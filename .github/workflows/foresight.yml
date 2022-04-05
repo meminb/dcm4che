@@ -17,6 +17,10 @@ jobs:
           distribution: 'adopt'
           java-version: '8'
 
+
+      - name: run-test
+        run: mvn clean install
+        
       - name: Thundra Foresight JS Instrumentation
         uses: actions/upload-artifact@v2
         with:
