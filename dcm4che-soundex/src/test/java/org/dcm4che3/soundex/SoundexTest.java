@@ -21,12 +21,10 @@
 
 package org.dcm4che3.soundex;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import junit.framework.Assert;
+import static org.testng.AssertJUnit.assertFalse;
 
-import org.dcm4che3.soundex.Soundex;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.*;
 
 public class SoundexTest {
 
@@ -42,7 +40,7 @@ public class SoundexTest {
     }
     
     public void checkEncoding(String expected, String source) throws Exception {
-        assertEquals("Source: " + source, expected, getSoundexEncoderString(source));
+        Assert.assertEquals ("Source: " + source, expected, getSoundexEncoderString(source));
     }
     
     @Test
